@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 import { Column } from './Column';
-import { TaskModal } from './TaskModal';
+import { TaskModal } from './Taskmodal';
 import { ProgressChart } from './ProgressChart';
 import { useSocket } from '../hooks/useSocket';
 import { useTasks } from '../hooks/useTasks';
@@ -73,8 +73,8 @@ export const KanbanBoard = () => {
                             {/* Connection Status */}
                             <div className="flex items-center gap-3">
                                 <div className={`flex items-center gap-2 px-4 py-2 rounded-full font-medium ${isConnected
-                                        ? 'bg-green-100 text-green-700'
-                                        : 'bg-red-100 text-red-700'
+                                    ? 'bg-green-100 text-green-700'
+                                    : 'bg-red-100 text-red-700'
                                     }`}>
                                     {isConnected ? (
                                         <>
