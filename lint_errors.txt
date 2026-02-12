@@ -1,0 +1,13 @@
+
+> websocket-kanban-frontend@0.0.1 lint
+> eslint . --report-unused-disable-directives --max-warnings 0
+
+
+C:\Users\agyan\OneDrive\Desktop\Vyorius Drones Private Limited\websocket-kanban-vitest-playwright-2026\frontend\src\setupTests.js
+   1:10  error  'expect' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  26:1   error  'global' is not defined                                                        no-undef
+  27:1   error  'global' is not defined                                                        no-undef
+  30:1   error  'global' is not defined                                                        no-undef
+
+Γ£û 4 problems (4 errors, 0 warnings)
+
