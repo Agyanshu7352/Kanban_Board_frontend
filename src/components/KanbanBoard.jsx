@@ -3,7 +3,7 @@ import { DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 import { Column } from './Column';
 import { TaskModal } from './Taskmodal';
-import { ProgressChart } from './ProgressChart';
+import { ProgressChart } from './Progresschart';
 import { useSocket } from '../hooks/useSocket';
 import { useTasks } from '../hooks/useTasks';
 import {
